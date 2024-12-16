@@ -14,7 +14,7 @@ let name = "devesh"
 let age = 18;
 let isLogedIn = false;
 
-// number => 2 to power 53
+// number => 2 to power 53 - 1
 // bigint
 //string => ""
 // boolean => true/false
