@@ -17,20 +17,20 @@ const gameName = new String ('devesh-jangde-abhinay-yogesh-amit-sumit');
 const newString = gameName.substring(0,6);
 // console.log(newString);
 
-const anotherString = gameName.slice(2,4);
+const anotherString = gameName.slice(0,6);
 // console.log(anotherString);
 
-const newStringOne = "      Devesh     "
-console.log(newStringOne);
-console.log(newStringOne.trim());
+// const newStringOne = "      Devesh     "
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
 
-console.log(newStringOne.trimStart());
-console.log(newStringOne.trimEnd());
+// console.log(newStringOne.trimStart());
+// console.log(newStringOne.trimEnd());
 
-const url = "https://google.com/codebhatija"
+const url = "https://google.com/codebhatijadotcom"
 
-console.log(url.replace('code', 'devesh '));
+// console.log(url.replace('code', 'devesh '));
 
-console.log(url.includes("google"));
+// console.log(url.includes("google"));
 
 console.log(gameName.split('-'));
