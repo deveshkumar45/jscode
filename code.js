@@ -1,12 +1,12 @@
 // Extracting String Characters
 
 const dev = "devesh jangde";
-//const rog = dev[1];
-// const rog = dev.at(-6)
-// const rog = dev.charAt(dev.length-3);
-// const rog = dev.charCodeAt(4);
-// const rog = dev.length
-// console.log(rog);
+//const rol = dev[1];
+// const rol = dev.at(-6)
+// const rol = dev.charAt(dev.length-3);
+// const rol = dev.charCodeAt(4);
+// const rol = dev.length
+// console.log(rol);
 
 // String Length;
  
@@ -23,8 +23,9 @@ const newIs = "mango, papaya, apple, orange"
 // const isLess = newIs.slice(-13,-8)
 // ++++++
 // const isLess = newIs.substring(7,20)
+// const Is = newIs.length
 const isLess = newIs.substr(-12)
-// console.log(isLess);
+console.log(isLess);
 
 // Converting to Upper and Lower Case:
 
