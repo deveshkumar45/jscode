@@ -15,10 +15,11 @@ const myArr2 = new Array(1,3,43,5,54)
 // myArr.shift()
 
 
-// console.log(myArr.includes(88));
-// console.log(myArr.indexOf(44));
+// console.log(myArr.includes(1));
+// console.log(myArr.indexOf(1));
+// console.log( typeof myArr);
 
-const newArr = myArr.join()
+const newArr = myArr.join("_") //  returns an array as a string:
 
 // console.log(myArr);
 // console.log( typeof newArr);
@@ -26,16 +27,13 @@ const newArr = myArr.join()
 // slice & splice 
 
 // console.log("A ", myArr);
-
 const myn1 = myArr.slice(1,3)
-
 // console.log(myn1);
 // console.log("B ", myArr);
-
 
 const myn2 = myArr.splice(1,3)
 // console.log("C ", myArr);
 // console.log(myn2);
-
+// console.log(myArr);
 
 
