@@ -18,15 +18,33 @@ const regularUser = {
 
     }
 }
-// console.log(regularUser.fullname.userFullName.firstname);
+//  console.log(regularUser.fullname.userFullName.firstname);
 
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "c", 4: "d"}
 
 // const obj3 = { obj1,obj2}
-// const obj3 = Object.assign({}, obj1, obj2)
-const obj3 = {...obj1, ...obj2}
+const obj3 = Object.assign({},obj1,obj2)
+// console.log(obj1);
 // console.log(obj3);
+// const obj3 = {...obj1, ...obj2}
+
+
+const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
+const source1 = { b: 5, d: 5};
+
+const returnedTarget = Object.assign(target, source, source1);
+
+// console.log(target);
+// Expected output: Object { a: 1, b: 4, c: 5 }
+
+// console.log(returnedTarget === target);
+// Expected output: true
+
+
+
+
 
 const users = [
     {
@@ -47,9 +65,10 @@ const users = [
 // console.log(tinderUser);
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
+
 // console.log(Object.entries(tinderUser));
 
-// console.log(tinderUser.hasOwnProperty("isLogged")); 
+// console.log(tinderUser.hasOwnProperty("isLogged"));
 
 const course = {
     coursename: "js in hindi",
@@ -61,9 +80,10 @@ const {courseInstructor: instructor} = course // de-structuring
 console.log(instructor);
 
 
+
 // {
 //     "name": "Devesh",
 //     "courseName": "js in hindi",
 //     "price": "free"
-// }
+// }// json
 
