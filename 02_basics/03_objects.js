@@ -15,6 +15,7 @@ const jsUser = {
     isLoggedIn: false,
     lastLoginDays: ["monday", "saturday"]
 }
+user.lastLoginDays()
 
 // console.log(jsUser.email)
 // console.log(jsUser["email"])
@@ -34,7 +35,9 @@ jsUser.greeting = function(){
 jsUser.greetingTwo = function(){
     console.log(`Hello JS User, ${this.name}`);  
 }
-console.log(jsUser.greeting());
+// console.log(jsUser.greeting());
 console.log(jsUser.greetingTwo());
+
+
 
 
