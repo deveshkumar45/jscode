@@ -1,13 +1,14 @@
 // if
 // const isUserLoggedIn = true
-// const temperature = 41
-// if(temperature ===40){
-// console.log("less than 50");
-// }
-//     else{
+const temperature = 41
 
-//         console.log("temperature greater than 50")
-// }
+if(temperature ===40){
+console.log("less than 50");
+}
+    else{
+
+        console.log("temperature greater than 50")
+}
 
 // console.log("execute");
  
@@ -15,7 +16,6 @@
 
 
 // const score = 200
-
 // if (score>100) {
 
 //     let  power = "fly"
