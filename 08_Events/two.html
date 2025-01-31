@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Events practice</title>
+</head>
+<body>
+    <h1>Hello javascript Students </h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <script>
+            let clearVar;
+        const saySomething = function () {
+            console.log("say devesh", Date.now());}
+            
+            document.querySelector('#start').addEventListener('click',function (){
+               if(!clearVar){
+                clearVar = setInterval(saySomething,1000)
+               }
+            })
+
+            document.querySelector('#stop').addEventListener('click',function (){
+                clearInterval(clearVar)
+                clearVar = null;
+            })
+    //    const clearVar = setInterval(saySomething,1000)
+
+       
+    </script>
+</body>
+</html>
