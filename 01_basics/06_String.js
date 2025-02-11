@@ -27,6 +27,13 @@ const anotherString = gameName.slice(0,6);
 // console.log(newStringOne.trimStart());
 // console.log(newStringOne.trimEnd());
 
+// const newStr = new String ("hello devesh")
+// console.log(newStr);
+// console.log(typeof newStr);
+// let newValueStr = newStr.valueOf();
+// console.log(newValueStr);
+// console.log( typeof newValueStr);
+
 const url = "https://google.com/codebhatijadotcom"
 
 // console.log(url.replace('code', 'devesh '));
