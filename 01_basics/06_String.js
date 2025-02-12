@@ -12,7 +12,7 @@ const gameName = new String ('devesh-jangde-abhinay-yogesh-amit-sumit');
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
 // console.log(gameName.charAt(2));
-// console.log(gameName.indexOf("d"));
+console.log(gameName.indexOf("j"));
 
 const newString = gameName.substring(0,6);
 // console.log(newString);
@@ -40,4 +40,4 @@ const url = "https://google.com/codebhatijadotcom"
 
 // console.log(url.includes("google"));
 
-console.log(gameName.split('-'));
+// console.log(gameName.split('-'));
